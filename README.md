@@ -16,7 +16,7 @@ To help prepare for API authentication tomorrow, research [JSON Web Tokens](http
     {
       "sub": "1234567890",
       "name": "John Doe",
-      "admin": true
+      "admin": true 
     }
   c. Signature - You need to take the header and payload and sign these. It is used to verify that the sender of JWT is who they say they are.
 3. Why do people use JWTs for authentication? A great resource to read would be https://jwt.io/introduction/.
